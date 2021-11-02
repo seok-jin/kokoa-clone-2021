@@ -2,9 +2,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -21,7 +22,17 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-hearder_text">If you hava a Kokoa Account, log in with tour email or phone number</p>
+    </header>
 
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
     <script 
         src="https://kit.fontawesome.com/64c88ab132.js" 
         crossorigin="anonymous">
