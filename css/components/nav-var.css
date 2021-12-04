@@ -32,16 +32,7 @@
 }
 
 .nav__elipsis {
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
-  position: absolute;
   left: 28px;
   bottom: 25px;
+  position: absolute;
 }
