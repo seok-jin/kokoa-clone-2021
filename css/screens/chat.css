@@ -33,4 +33,36 @@
   padding: 15px;
   border-radius: 25px;
   font-size: 14px;
+  margin-bottom: 25px;
+}
+.massage-row {
+  width: 100%;
+  display: flex;
+}
+.massage-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.massage__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+.massage__bubble {
+  background-color: white;
+  padding: 13px;
+  border-radius: 15px;
+  font-size: 18px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+.massage__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 15px;
 }
